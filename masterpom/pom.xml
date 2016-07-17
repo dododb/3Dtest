@@ -5,7 +5,7 @@
   <groupId>3Dtest</groupId>
   <artifactId>masterpom</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <packaging>jar</packaging>
+  <packaging>pom</packaging>
 
   <name>masterpom</name>
   <url>http://maven.apache.org</url>
@@ -22,4 +22,11 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <modules>
+  	<module>view</module>
+  	<module>model</module>
+  	<module>controller</module>
+  	<module>contract</module>
+  	<module>main</module>
+  </modules>
 </project>
